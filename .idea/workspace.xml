@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b674de8-3e34-4d00-92e7-3c98e34e3700" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/T2/ejercicio24_10/ej6.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -26,10 +25,10 @@
         </entry>
       </file>
       <file leaf-file-name="ej6.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/T2/Practica04/ej6.java">
+        <entry file="file://$PROJECT_DIR$/src/T2/Practica04/ej6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,6 +49,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/T2/Practica04/ej6.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -101,20 +107,27 @@
             <path>
               <item name="programacion" type="b2602c69:ProjectViewProjectNode" />
               <item name="programacion" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T2" type="462c0819:PsiDirectoryNode" />
+              <item name="ejercicio24_10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="T2" type="462c0819:PsiDirectoryNode" />
               <item name="Practica04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ejercicio24_10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,6 +145,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\drago\Documents\GitHub\programacion\src\T2\Practica04" />
       <recent name="C:\Users\drago\Documents\GitHub\programacion\bin\T2\Practica04" />
     </key>
   </component>
@@ -241,6 +255,14 @@
       <option name="presentableId" value="Default" />
       <updated>1509902256705</updated>
     </task>
+    <task id="LOCAL-00001" summary="dfgdf">
+      <created>1509903132270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509903132270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -277,6 +299,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dfgdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfgdf" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -298,10 +324,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/T2/Practica04/ej6.java">
+    <entry file="file://$PROJECT_DIR$/src/T2/Practica04/ej6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
