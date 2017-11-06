@@ -33,6 +33,7 @@ public class ej2 {
             default:
                 System.out.println("No es una opcion valida.");
         }
+        teclado.close();
 
 
     }

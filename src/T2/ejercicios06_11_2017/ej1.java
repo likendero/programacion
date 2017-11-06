@@ -14,5 +14,7 @@ public class ej1 {
             System.out.println("Es una vocal");
         else
             System.out.println("Es una consonante");
+        teclado.close();
     }
+
 }
