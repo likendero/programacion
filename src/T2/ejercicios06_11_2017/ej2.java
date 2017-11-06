@@ -1,5 +1,7 @@
 package T2.ejercicios06_11_2017;
-
+/**
+ * @Author Sergey Shevchenko
+ */
 import java.util.Scanner;
 
 public class ej2 {
