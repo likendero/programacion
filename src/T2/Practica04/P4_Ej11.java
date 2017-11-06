@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej11 {
+public class P4_Ej11 {
     /*
     Programa que lea un número entero N de 5 cifras y muestre
     sus cifras desde el final.  Lee 12345 y escribe 5 4 3 2 1

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej14 {
+public class P4_Ej14 {
     /*
     Dado un número que se introduce por teclado, si es
     positivo verificar si se encuentra en el intervalo
@@ -23,6 +23,7 @@ public class ej14 {
                 System.out.println("Error, fuera de intervalo");
         else
             System.out.println("No es un numero positivo");
+        teclado.close();
 
     }
 }

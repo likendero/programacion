@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author  Sergey Shevchenko
  */
-public class ej12 {
+public class P4_Ej12 {
     /*
     Programa que lea un carácter y compruebe si es un número
      */
@@ -17,5 +17,6 @@ public class ej12 {
             System.out.println("Es un numero");
         else
             System.out.println("No es un numero");
+        teclado.close();
     }
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej7 {
+public class P4_Ej07 {
     /*
     Programa Java que pida las notas de las tres evaluaciones
     de un alumno y calcule la nota final (media). La nota final es un numero entero

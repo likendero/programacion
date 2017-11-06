@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej9 {
+public class P4_Ej09 {
     /*
     Realiza un programa Java que lea un número por teclado
     que pida el precio de un producto (puede tener decimales)

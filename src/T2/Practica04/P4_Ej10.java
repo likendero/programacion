@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej10 {
+public class P4_Ej10 {
     /*
     Programa que lee un número de 3 cifras y muestra sus
     cifras por separado.  Lee 315 y muestra 3 1 5

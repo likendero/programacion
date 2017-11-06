@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej13 {
+public class P4_Ej13 {
     /*
     Dado un número entero que se introduce por teclado,
     determinar si  se encuentra  en   el  intervalo  cerrado  51 – 100
@@ -18,5 +18,6 @@ public class ej13 {
             System.out.println("El numero esta en el intervalo");
         else
             System.out.println("El numero no esta en el intervalo");
+        teclado.close();
     }
 }

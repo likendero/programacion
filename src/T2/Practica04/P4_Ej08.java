@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author Sergey Shevchenko
  */
-public class ej8 {
+public class P4_Ej08 {
     /*
     Programa que pida al usuario un valor para una variable X
     y calcule y escriba el valor de y en la función y = 6x^2+ 8x - 17.
