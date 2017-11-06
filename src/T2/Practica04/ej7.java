@@ -28,6 +28,6 @@ public class ej7 {
             cont++;
         System.out.println("Nota final = "+cont);
 
-
+        teclado.close();
     }
 }
