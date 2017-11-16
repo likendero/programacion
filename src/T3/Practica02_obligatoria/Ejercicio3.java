@@ -1,0 +1,33 @@
+package T3.Practica02_obligatoria;
+
+import java.util.Scanner;
+
+/**
+ * @Author Sergey Shevchenko
+ */
+/*
+Escribir un programa que lea la hora en notación de 24 horas y que
+imprima en notación de 12; por ejemplo, si la entrada es 13:45, la salida
+será 1:45 pm. El programa debe solicitar al usuario que introduzca
+exactamente cinco caracteres para especificar una hora; por ejemplo, las
+9 en punto se debe introducir así: 09:00.
+ */
+public class Ejercicio3 {
+    public static boolean comprobacionHora(String hora) {
+        if(hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0)
+            return true;
+        else
+            return false;
+    }
+
+    public static void main(String[] args) {
+        Scanner entrada=new Scanner(System.in);
+        String hora;
+        do {
+            System.out.println("Introduzca la hora");
+            hora=entrada.next();
+            if (comprobacionHora(hora)==false)
+                System.out.println("No es una hora valida.");
+        }while (comprobacionHora(hora)==false);
+    }
+}
