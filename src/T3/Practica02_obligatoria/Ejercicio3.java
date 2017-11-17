@@ -26,8 +26,8 @@ public class Ejercicio3 {
         do {
             System.out.println("Introduzca la hora");
             hora=entrada.next();
-            if (comprobacionHora(hora)==false)
+            if (hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0)
                 System.out.println("No es una hora valida.");
-        }while (comprobacionHora(hora)==false);
+        }while (hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0);
     }
 }
