@@ -13,6 +13,11 @@ Constructores:
         .Validar hora
         .Segundo siguiente
         .Segundo anterior
+
+        hora 1
+        hora2 hora que quieras
+        hora3 = hora2
+
  */
 public class hora {
     private int hora=13, minuto=0, segundo=0;
@@ -40,6 +45,12 @@ public class hora {
 
     public int getSegundo() {
         return segundo;
+    }
+
+    public hora(){
+        this.hora = 13;
+        this.minuto = 0;
+        this.segundo = 0;
     }
 
     public hora(int hora, int minuto, int segundo) {
@@ -94,5 +105,13 @@ public class hora {
             }
         }
         return;
+    }
+
+    public static void main(String[] args) {
+        T3.Clase16_11_2017.hora hora1=new hora();
+        T3.Clase16_11_2017.hora hora2=new hora(14, 56, 21);
+        T3.Clase16_11_2017.hora hora3=new hora(hora2);
+        System.out.println(hora1.toString());
+
     }
 }
