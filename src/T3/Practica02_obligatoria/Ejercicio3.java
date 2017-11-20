@@ -27,8 +27,14 @@ public class Ejercicio3 {
         do {
             System.out.println("Introduzca la hora");
             hora=entrada.next();
+<<<<<<< HEAD
             if (!comprobacionHora(hora))
                 System.out.println("No es una hora valida.");
         }while (!comprobacionHora(hora));
+=======
+            if (hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0)
+                System.out.println("No es una hora valida.");
+        }while (hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0);
+>>>>>>> e70e8dc3663a16820328eb1698d84b8794f844b3
     }
 }
