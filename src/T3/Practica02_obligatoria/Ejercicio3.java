@@ -14,10 +14,11 @@ exactamente cinco caracteres para especificar una hora; por ejemplo, las
  */
 public class Ejercicio3 {
     public static boolean comprobacionHora(String hora) {
-        if(hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0)
-            return true;
-        else
-            return false;
+//        if(hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0)
+//            return true;
+//        else
+//            return false;
+        return (hora.length()==5&&hora.charAt(2)==':'&&Integer.valueOf(hora.substring(0,2))<24&&Integer.valueOf(hora.substring(0,2))>0&&Integer.valueOf(hora.substring(3,5))<59&&Integer.valueOf(hora.substring(3,5))>0);
     }
 
     public static void main(String[] args) {
@@ -26,8 +27,8 @@ public class Ejercicio3 {
         do {
             System.out.println("Introduzca la hora");
             hora=entrada.next();
-            if (comprobacionHora(hora)==false)
+            if (!comprobacionHora(hora))
                 System.out.println("No es una hora valida.");
-        }while (comprobacionHora(hora)==false);
+        }while (!comprobacionHora(hora));
     }
 }
