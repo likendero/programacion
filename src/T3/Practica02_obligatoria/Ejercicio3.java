@@ -18,7 +18,7 @@ public class Ejercicio3 {
 //            return true;
 //        else
 //            return false;
-        return (hora.length()==5&&hora.charAt(2)==':'&&Integer.valueOf(hora.substring(0,2))<24&&Integer.valueOf(hora.substring(0,2))>0&&Integer.valueOf(hora.substring(3,5))<59&&Integer.valueOf(hora.substring(3,5))>0);
+        return (hora.length()==5&&hora.charAt(2)==':'&&Integer.valueOf(hora.substring(0,2))<24&&Integer.valueOf(hora.substring(0,2))>=0&&Integer.valueOf(hora.substring(3,5))<59&&Integer.valueOf(hora.substring(3,5))>=0);
     }
 
     public static void main(String[] args) {
@@ -27,14 +27,11 @@ public class Ejercicio3 {
         do {
             System.out.println("Introduzca la hora");
             hora=entrada.next();
-<<<<<<< HEAD
             if (!comprobacionHora(hora))
                 System.out.println("No es una hora valida.");
         }while (!comprobacionHora(hora));
-=======
-            if (hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0)
-                System.out.println("No es una hora valida.");
-        }while (hora.length()!=5||hora.charAt(2)!=':'||Integer.valueOf(hora.substring(0,2))>23||Integer.valueOf(hora.substring(0,2))<0||Integer.valueOf(hora.substring(3,4))>59||Integer.valueOf(hora.substring(3,4))<0);
->>>>>>> e70e8dc3663a16820328eb1698d84b8794f844b3
+        if (Integer.valueOf(hora.substring(0,2))>12)
+            hora=(String.format("%02d",(Integer.valueOf(hora.substring(0,2))-12)))+hora.substring(2,5);
+        System.out.println(hora);
     }
 }
