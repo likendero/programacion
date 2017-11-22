@@ -70,6 +70,12 @@ public class Punto {
     }
 
     public Punto puntoMedio(Punto p){
+        p.setCoordenadaX((this.getCoordenadaX()+p.getCoordenadaX())/2);
+        p.setCoordenadaY((this.getCoordenadaY()+p.getCoordenadaY())/2);
         return p;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
