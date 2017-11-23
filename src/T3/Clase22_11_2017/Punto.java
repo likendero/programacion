@@ -66,16 +66,12 @@ public class Punto {
     }
 
     public double distancia(Punto p){
-        return Math.pow(Math.pow((this.getCoordenadaX()-p.getCoordenadaX()),2)+Math.pow(this.getCoordenadaY()-p.getCoordenadaY(),2) , 2);
+        return Math.pow(Math.pow((this.getCoordenadaX()-p.getCoordenadaX()),2)+Math.pow(this.getCoordenadaY()-p.getCoordenadaY(),2) , 0.5);
     }
 
     public Punto puntoMedio(Punto p){
         p.setCoordenadaX((this.getCoordenadaX()+p.getCoordenadaX())/2);
         p.setCoordenadaY((this.getCoordenadaY()+p.getCoordenadaY())/2);
         return p;
-    }
-
-    public static void main(String[] args) {
-
     }
 }
